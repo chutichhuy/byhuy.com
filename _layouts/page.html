@@ -9,19 +9,23 @@
   {% seo %}
 </head>
 <body style="background-color: rgb(255, 255, 255)">
- <script async src="{{site.baseurl}}/js/theme.min.js"></script> 
-    <h1 class="headline">{{site.title}}</h1>
-    <div class="links top">
-      <a href="{{site.baseurl}}/about/">about</a>
-      <a href="{{site.baseurl}}/contact/">contact</a>
-    </div>
-
-    <main class="index">
+ <script async src="{{site.baseurl}}/js/theme.min.js"></script>
+  <header>
+      <a href="{{site.baseurl}}/"><div class="home"></div></a>
+  </header>
+    <main>
+    <article>
     {{ content }}
+    </article>
     </main>
 
 <footer>
-  <p class="copy"><small>Copyrights by {{site.title}}</small></p>
+    <div class="links">
+        <a href="{{site.baseurl}}/about/">About</a>
+        <a href="{{site.baseurl}}/contact/">Contact</a>
+        <a class="theme" onclick="theme()">Dark/Light</a>
+    </div>
+    <p class="copy"><small>Copyrights by {{site.title}}</small></p>
 </footer>
 {% include analytics.html %}
 </body>
