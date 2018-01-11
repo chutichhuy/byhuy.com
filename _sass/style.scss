@@ -16,8 +16,13 @@ body {
             max-width: 100%;
             padding: 1em;
         }
-
+        background-color: #FCE205;
+        color: #444C38;
     }
+body.readable {
+  background-color: #FFF;
+  color: #111;
+}
 
     h1,h2,h3,h4,h5,h6 {
          font-family: $title-font-family;
