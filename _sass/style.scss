@@ -166,8 +166,8 @@ blockquote {
 
 /* Footer */
 footer {
-    position: relative;
-    top: 2em;
+    margin-top: 50px;
+    margin-bottom: 50px; 
 }
 
 /* Footer navigation links */
@@ -295,6 +295,17 @@ small {
   .home-books li {
     float: none;
     width: 100%;
+  }
+
+  .book-intro {
+    .cover {
+      float: none;
+      width: 100%;
+      padding: 0px;
+    }
+    .info {
+      margin-left: 0px;
+    }
   }
 }
 
