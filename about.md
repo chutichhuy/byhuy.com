@@ -1,13 +1,17 @@
 ---
-title: About Hagura
+title: Về Huy
 layout: post
 permalink: /about/
 published: true
 ---
+<p><img style="border: 1px solid black" src="{{ "/assets/huy.jpg" | absolute_url }}"></p>
 
-For more themes please visit [https://jekyll-themes.com](https://jekyll-themes.com){: target="_blank"}
+Hồi năm 1987, trong một đêm mưa gió có một thằng nọ ra đời.
 
-Does the theme deserve a star?
+Thằng đó chính là Huy.
 
-<a class="github-button" href="https://github.com/sharu725/hagura" data-style="mega" data-count-href="/sharu725/hagura/stargazers" data-count-api="/repos/sharu725/hagura#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star sharu725/hagura on GitHub">Star</a>
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+Lớn lên, thỉnh thoảng nó ngồi viết tiểu thuyết.
+
+Lúc rảnh, nó tranh thủ kiếm chút tiền hoặc nghe nhạc hoặc nghịch bút máy hoặc đi chơi đôi chút.
+
+

@@ -1,0 +1,13 @@
+---
+layout: blank
+---
+
+<section>
+  <h1 class="headline">Blog</h1>
+  <div class="article-list">
+  {% for post in site.categories['blog'] %}
+      <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+      <p>{{post.excerpt | strip_html}}</p>
+  {% endfor %}
+  </div>
+</section>
