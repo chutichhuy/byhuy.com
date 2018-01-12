@@ -301,9 +301,10 @@ box-shadow: -5px 3px 15px -7px rgba(51,51,51,1);
   padding: 30px 0px;
 }
 
-small {
-  color: #666;
+.meta > small {
   font-size: 0.8em;
+  font-family: $secondary-title-font-family;
+  font-weight: bold;
 }
 
 @media (max-width: 480px) {
