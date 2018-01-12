@@ -2,7 +2,7 @@
 layout: default
 ---
 <section>
-  <h2>Sách</h2>
+  <h2 class="section-title">Sách</h2>
   <ul class="home-books">
     <li>
       <a href="{{ "/sach/toingoidaychoconbaotoi" | absolute_url}}">
@@ -17,7 +17,7 @@ layout: default
   </ul>
 </section>
 <section>
-  <h2>Blog mới</h2>
+  <h2 class="section-title">Blog mới</h2>
   <div class="article-new">
       <h3><a href="{{site.categories['blog'][0].url | prepend: site.baseurl}}">{{site.categories['blog'][0].title}}</a></h3>
       <p>{{site.categories['blog'][0].excerpt | strip_html}}</p>
@@ -26,5 +26,7 @@ layout: default
       <h3><a href="{{site.categories['blog'][2].url | prepend: site.baseurl}}">{{site.categories['blog'][2].title}}</a></h3>
       <p>{{site.categories['blog'][2].excerpt | strip_html}}</p>
   </div>
-  <a href="{{ "/blog"  | absolute_url}}">coi blog &rarr;</a>
+  <div style="text-align:right">
+    <a href="{{ "/blog"  | absolute_url}}">coi blog &rarr;</a>
+  </div>
 </section>
