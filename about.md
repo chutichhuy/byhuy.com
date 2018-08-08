@@ -1,6 +1,6 @@
 ---
-title: Về Huy
-layout: post
+title: Huy
+layout: page
 permalink: /about/
 published: true
 ---
