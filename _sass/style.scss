@@ -211,7 +211,10 @@ main.index {
 
 .motto {
   font-size: 2em;
-  margin-bottom: 30px;
+  color: #000;
+  img {
+    max-width: 800px;
+  }
 }
 
 section {
