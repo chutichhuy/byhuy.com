@@ -210,9 +210,14 @@ main.index {
 }
 
 .motto {
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: bold;
   color: #000;
+  text-align: center;
+
+  img {
+    max-width: 600px;
+  }
 }
 
 section {
