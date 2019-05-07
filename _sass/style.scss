@@ -217,6 +217,8 @@ main.index {
 
   img {
     max-width: 600px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
 }
 
